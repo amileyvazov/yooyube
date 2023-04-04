@@ -1,0 +1,41 @@
+*{
+    font-family: 'Montserrat'; sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.ul li{
+    margin: 1.5% 2.5%;
+    display: block;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+    transition: 3s;
+    padding: 2px;
+    border-radius: 500px;
+}
+.menu i{
+    font-size: 40px;
+    margin-right:10px;
+    padding-top: 10px;
+    
+}
+.menu a:hover{
+   word-spacing: 1px;
+   border-bottom: 1px solid;
+   color: white;
+   background-color: rgb(209, 204, 204);
+   font-size: 40px;
+}
+.menu a:hover i{
+    font-size: 30px;
+}
+.logo1{
+ width: 20px;
+}
+.main{
+    width:600px;
+    height: 900px;
+}
